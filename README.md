@@ -1,6 +1,6 @@
-# Three Level Gen
+# THREE Skeleton by notchris
 
-Random tests at 3d procedural level rendering based on the 2d work by: https://github.com/mreinstein/level-generator
+A very basic starter for THREE. This probably should be updated.
 
 ```bash
 npm install

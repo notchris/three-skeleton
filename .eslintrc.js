@@ -17,6 +17,6 @@ module.exports = {
       "sourceType": "module",
       parser: 'babel-eslint',
       modules: true
-    }
+    },
   }
   

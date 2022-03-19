@@ -1,14 +1,14 @@
-import { Color, PlaneBufferGeometry, ShaderMaterial, DoubleSide, Mesh} from 'three';
+import { Color, PlaneBufferGeometry, ShaderMaterial, DoubleSide, Mesh} from 'three'
 
 export default class InfiniteGridHelper {
     constructor (scene, size1, size2, color, distance) {
-        this.scene = scene;
-        this.color = color || new Color('white');
-        this.size1 = size1 || 10;
-        this.size2 = size2 || 100;
-        this.distance = distance || 8000;
+        this.scene = scene
+        this.color = color || new Color('#333333')
+        this.size1 = size1 || 10
+        this.size2 = size2 || 100
+        this.distance = distance || 8000
 
-        const geometry = new PlaneBufferGeometry(2, 2, 1, 1);
+        const geometry = new PlaneBufferGeometry(2, 2, 1, 1)
         const material = new ShaderMaterial({
             side: DoubleSide,
             uniforms: {
@@ -71,11 +71,11 @@ export default class InfiniteGridHelper {
                 derivatives: true
             }
     
-        });
+        })
 
-        this.mesh = new Mesh(geometry, material);
-        this.mesh.frustumCulled = false;
-        this.scene.add(this.mesh);
-        return this;
+        this.mesh = new Mesh(geometry, material)
+        this.mesh.frustumCulled = false
+        this.scene.add(this.mesh)
+        return this
     }
 }

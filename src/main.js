@@ -1,6 +1,6 @@
-import './assets/css/style.css';
+import './assets/css/style.css'
 // Render
-import Render from './classes/Render';
+import Render from './classes/Render'
 
 // Init
-new Render();
+new Render()

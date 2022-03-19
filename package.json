@@ -1,5 +1,5 @@
 {
-    "name": "three-level-gen",
+    "name": "three-skeleton",
     "version": "1.0.4",
     "description": "...",
     "author": "notchris",
@@ -16,9 +16,7 @@
     "homepage": "",
     "dependencies": {
         "@babel/polyfill": "^7.2.5",
-        "orbit-controls-es6": "^2.0.1",
-        "three": "^0.116.1",
-        "three-js-csg-es6": "^73.0.0"
+        "three": "^0.116.1"
     },
     "devDependencies": {
         "@babel/cli": "^7.2.3",
